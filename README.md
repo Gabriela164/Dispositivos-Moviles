@@ -4,6 +4,6 @@
 
 
 
-Este repositorio fue creado para almacenar las tareas y proyectos realizados en el curso de programación de dispositivos móviles. 
+Este repositorio fue creado para almacenar las tareas y proyectos realizados durante el curso de programación de dispositivos móviles. 
 * Alumna: López Diego Gabriela 
 * No. De Cuenta: 318243485
