@@ -1,14 +1,13 @@
-#Tarea 01
+# 💫 Tarea 01
 
-Creación de un dibujo de caracteres en código ASCII dentro de una aplicación móvil utilizando el ambiente Android Studio y el emulador. El dibujo realizo fue el siguiente:
+Creación de un dibujo de caracteres en código ASCII dentro de una aplicación móvil utilizando el ambiente Android Studio y el emulador. El dibujo realizado fue el siguiente:
 
-░░░░░░░░░░░░░░░░░░░░░░
-░░░░░░░░░░┌┬┐░░░░┌────┐
-░░░░░░┐┌──┘▐▐──┐──┤Hola│
-░░░░░░░└┤┌┬┐┌┬─┘░░└────┘
-░░░══════╧╧╧╧╧╧══════════
+░░░░░░░░░░░░░░░░░░░░░░ <br>
+░░░░░░░░░░┌┬┐░░░░┌────┐ <br>
+░░░░░░┐┌──┘▐▐──┐──┤Hola│ <br>
+░░░░░░░└┤┌┬┐┌┬─┘░░└────┘ <br>
+░░░══════╧╧╧╧╧╧══════════ <br>
 
 A continuación se muestra el resultado final:
-![ResultadoEmulador](Imagenes/emulador.png)
 
-
+<img src="Imagenes/emulador.png" alt="Resultado en el emulador" width="350">
