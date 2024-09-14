@@ -11,25 +11,23 @@ Creación de dos vistas (actividades) para una aplicación móvil de un restaura
 Resultado actividad 1 y actividad 2 (ORIENTACIÓN VERTICAL):</br>
 
 <div style="display: flex; gap: 10px;">
-    <img src="Imagenes/Actividad1.png" alt="ResultadoActividad1" width="320" height= "400">
-    <img src="Imagenes/Actividad2.png" alt="ResultadoActividad2" width="280"  height= "400">
+    <img src="Imagenes/Actividad1.png" alt="ResultadoActividad1" width="300" height= "350">
+    <img src="Imagenes/Actividad2.png" alt="ResultadoActividad2" width="250"  height= "350">
 </div>
 </br>
 Resultado actividad 1 (ORIENTACIÓN HORIZONTAL):</br>
 </br>
 <div style="display: flex; gap: 10px;">
-    <img src="Imagenes/Actividad1_horizontal1.png" width="460" height= "220">
-    <img src="Imagenes/Actividad1_horizontal2.png" width="460"  height= "220">
+    <img src="Imagenes/Actividad1_horizontal1.png" width="320" height= "180">
+    <img src="Imagenes/Actividad1_horizontal2.png" width="320"  height= "180">
 </div>
 </br>
 Resultado actividad 2 (ORIENTACIÓN HORIZONTAL):</br>
 </br>
 <div style="display: flex; gap: 10px;">
-    <img src="Imagenes/Actividad2_horizontal1.png" width="460" height= "220">
-    <img src="Imagenes/Actividad2_horizontal2.png" width="460"  height= "220">
+    <img src="Imagenes/Actividad2_horizontal1.png" width="320" height= "180">
+    <img src="Imagenes/Actividad2_horizontal2.png" width="320"  height= "180">
 </div>
-
-</br>
 
 </br>
 Para probar cada una de las actividades de la aplicación móvil, hay que ir alternando con comentarios:
@@ -40,6 +38,4 @@ setContentView(R.layout.first_activity);
 setContentView(R.layout.second_activity);
 ```
 
-Resultado actividad 2 explicada:
-
-<img src="Imagenes/Explicacion.png" alt="ExplicacionActividad2" width="400">
+<img src="Imagenes/Explicacion.png" alt="ExplicacionActividad2" width="420">
