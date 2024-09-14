@@ -5,6 +5,9 @@ Creación de dos vistas (actividades) para una aplicación móvil de un restaura
 
 <img src="Imagenes/icon_logo.png" width="200" height="170">
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 </br>
 * Objetivo: Realizar dos actividades donde cada una muestre un formulario usando leyendas, cajas de texto, checkbox, radio botones, botones, imágenes, etc.
@@ -30,14 +33,25 @@ Resultado actividad 2 (ORIENTACIÓN HORIZONTAL):</br>
     <img src="Imagenes/Actividad2_horizontal1.png" width="460" height= "220">
     <img src="Imagenes/Actividad2_horizontal2.png" width="460"  height= "220">
 </div>
+<<<<<<< Updated upstream
+=======
+
+</br>
+>>>>>>> Stashed changes
 
 </br>
 
+<<<<<<< Updated upstream
 </br>
 Para probar cada una de las actividades de la aplicación móvil, hay que ir alternando con comentarios `setContentView(R.layout.first_activity)` y `setContentView(R.layout.second_activity)` que se encuentran dentro de `java/MainActivity.java`. </br>
 </br>
 
 <<<<<<< Updated upstream
+=======
+Resultado actividad 2 explicada:
+
+
+>>>>>>> Stashed changes
 =======
 Resultado actividad 2 explicada:
 
