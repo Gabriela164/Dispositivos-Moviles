@@ -5,5 +5,12 @@
 
 
 Este repositorio fue creado para almacenar las tareas y proyectos realizados durante el curso de programación de dispositivos móviles. 
+
+* Profesor:
+  - Gustavo Arturo Marquez Flores
+* Ayudantes:
+  - Cristopher Alejandro Escamilla Soto
+  - Jesús Iván Saavedra Martínez
+
 * Alumna: López Diego Gabriela 
 * No. De Cuenta: 318243485
