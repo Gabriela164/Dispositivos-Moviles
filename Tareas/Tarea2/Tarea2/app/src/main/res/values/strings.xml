@@ -23,6 +23,23 @@
     <string name="package_1"> Paquete 1 </string>
     <string name="description_breakfast"> Delicioso sandwich de croissant con huevo, jamón, queso, lechuga y jitomate. Acompañado con fruta (fresas, moras y guayabas) </string>
     <string name="adress">Dirección</string>
+    <string name="less">-</string>
+    <string name="plus">+</string>
+    <string name="one">1</string>
+    <string name="eggs">Huevo</string>
+    <string name="ham">Jamón</string>
+    <string name="lettuce">Lechuga</string>
+    <string name="tomate">Jitomate</string>
+    <string name="cheese">Queso</string>
+    <string name="strawberries">Fresas</string>
+    <string name="blackberries">Moras</string>
+    <string name="guavas">Guayabas</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="total">Total</string>
+    <string name="digit2">$135.60</string>
+    <string name="shipping_costs">Costos de envío</string>
+    <string name="digit_shipping">$80.00</string>
+    <string name="add_to_cart">Agregar al carrito</string>
 
 
 </resources>
