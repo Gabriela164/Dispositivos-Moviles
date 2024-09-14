@@ -2,8 +2,8 @@
 
 
 <div style="display: flex; gap: 10px;">
-  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2twbmw1bHdrYWxnd3h5bGVrcmRkamxhNWluaHJnOHM0Nm04OTZ5ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ptqAPgghLtHOa0SLJS/giphy.gif" alt="gato" width="300" height="320"/>
-  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTRxMnFxZHpnYzRsbm9tbTRrMWFlcHJ0aGt4MWYxdWVzbTg4YTNtMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lmy23L3RkJ0sEWokRN/giphy.gif" alt="dispositivo" width="300" height="320"/>
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2twbmw1bHdrYWxnd3h5bGVrcmRkamxhNWluaHJnOHM0Nm04OTZ5ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ptqAPgghLtHOa0SLJS/giphy.gif" alt="gato" width="250" height="260"/>
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTRxMnFxZHpnYzRsbm9tbTRrMWFlcHJ0aGt4MWYxdWVzbTg4YTNtMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lmy23L3RkJ0sEWokRN/giphy.gif" alt="dispositivo" width="250" height="260"/>
 </div>
 
 </br>
