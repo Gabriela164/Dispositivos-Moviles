@@ -1,16 +1,32 @@
-# Programación de dispositivos móviles 2025-1
-
-![dispositivo](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2kycDNnN283YWpjemdkb21yZ3l4ZG9mcjZyM2M1dGZ0ajU1YWpnaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UqB9KRApovhliUMnSu/giphy.gif)
+# 💚 Programación de dispositivos móviles 2025-1 💚
 
 
+<div style="display: flex; gap: 10px;">
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2twbmw1bHdrYWxnd3h5bGVrcmRkamxhNWluaHJnOHM0Nm04OTZ5ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ptqAPgghLtHOa0SLJS/giphy.gif" alt="gato" width="300" height="320"/>
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTRxMnFxZHpnYzRsbm9tbTRrMWFlcHJ0aGt4MWYxdWVzbTg4YTNtMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lmy23L3RkJ0sEWokRN/giphy.gif" alt="dispositivo" width="300" height="320"/>
+</div>
 
-Este repositorio fue creado para almacenar las tareas y proyectos realizados durante el curso de programación de dispositivos móviles. 
+</br>
+Este repositorio fue creado para almacenar las tareas y proyectos realizados durante el curso de programación de dispositivos móviles. </br>
+</br>
 
-* Profesor:
+<table>
+  <tr>
+    <td>Nombre</td>
+    <td>López Diego Gabriela</td>
+  </tr>
+  <tr>
+    <td>No. De Cuenta</td>
+    <td>318243485</td>
+  </tr>
+</table>
+
+</br>
+
+* 👨‍🦱 Profesor:
   - Gustavo Arturo Marquez Flores
-* Ayudantes:
+* 👨‍🦱 Ayudantes:
   - Cristopher Alejandro Escamilla Soto
   - Jesús Iván Saavedra Martínez
 
-* Alumna: López Diego Gabriela 
-* No. De Cuenta: 318243485
+
