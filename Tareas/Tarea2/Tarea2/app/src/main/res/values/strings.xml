@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Tarea2</string>
+    <string name="title">Detalles de pago</string>
+    <string name="price">Precio</string>
+    <string name="choose_method">Seleccione un método de pago</string>
+    <string name="digit">$215.60</string>
+    <string name="discount">30% OFF</string>
+    <string name="paypal">Paypal</string>
+    <string name="credit_card">Tarjeta de Crédito</string>
+    <string name="mastercard">Mastercard</string>
+    <string name="visa">Visa</string>
+    <string name="card_number">Número de tarjeta</string>
+    <string name="example_number_Card"> 1356 3215 6548 7898</string>
+    <string name="exp_date">Fecha de vencimiento</string>
+    <string name="cvv">CVV</string>
+    <string name="example_month_year">MM/AA</string>
+    <string name="example_cvv">645</string>
+    <string name="name_person">Nombre Completo</string>
+    <string name="example_name"> Gabriela López Diego</string>
+    <string name="save_card"> Guardar datos para futuras compras </string>
+    <string name="add_card"> Realizar pago </string>
+    <string name="breakfast"> PAQUETE 1: Sandwich de croissant con fruta. </string>
+    <string name="package_1"> Paquete 1 </string>
+    <string name="description_breakfast"> Delicioso sandwich de croissant con huevo, jamón, queso, lechuga y jitomate. Acompañado con fruta (fresas, moras y guayabas) </string>
+    <string name="adress">Dirección</string>
+
+
+</resources>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/breakfast"
+            android:layout_width="550dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="32dp"
+            android:contentDescription="Desayuno a domicilio"
+            android:src="@drawable/breakfast"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/title_breakfast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="@string/breakfast"
+            android:layout_marginBottom="12dp"
+            android:textSize="25dp"
+            android:typeface="serif" />
+
+        <!--price and choose number-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/digit"
+                android:textColor="#FF5733"
+                android:textSize="28sp"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/button_plus"
+                android:layout_width="63dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="4dp"
+                android:backgroundTint="#FF5733"
+                android:text="-"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="0dp"
+                android:text="1"
+                android:textSize="28sp">
+
+            </TextView>
+
+
+            <Button
+                android:id="@+id/button_less"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="4dp"
+                android:backgroundTint="#FF5733"
+                android:text="+"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/description_breakfast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="32dp"
+            android:layout_gravity="left"
+            android:text="@string/description_breakfast"
+            android:textSize="15sp"
+            android:typeface="serif" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal">
+
+            <!-- Lista de ingredientes con CheckBoxes -->
+            <CheckBox
+                android:id="@+id/check_huevo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Huevo" />
+
+            <CheckBox
+                android:id="@+id/check_jamon"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:text="Jamón" />
+
+            <CheckBox
+                android:id="@+id/check_lechuga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lechuga" />
+
+
+            <CheckBox
+                android:id="@+id/check_queso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Queso" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <!-- Lista de ingredientes con CheckBoxes -->
+            <CheckBox
+                android:id="@+id/check_jitomate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jitomate" />
+
+            <CheckBox
+                android:id="@+id/check_fresas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fresas" />
+
+            <CheckBox
+                android:id="@+id/check_moras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Moras" />
+
+            <CheckBox
+                android:id="@+id/check_guayaba"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guayaba" />
+        </LinearLayout>
+
+
+
+
+
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:text="Subtotal"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/textViewPrice1"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <TextView
+                android:id="@+id/textViewPrice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="32dp"
+                android:text="$135.60"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="0dp"
+                android:text="Costo de envío"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toStartOf="@+id/textViewPrice"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="32dp"
+                android:text="$80.00"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewLabel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="0dp"
+                android:text="Total"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toStartOf="@+id/textViewPrice3"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewPrice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="32dp"
+                android:text="$215.60"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#FF5733"
+            android:layout_gravity="center_horizontal"
+            android:text="Agregar al carrito" />
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
