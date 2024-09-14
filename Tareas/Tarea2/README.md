@@ -32,8 +32,13 @@ Resultado actividad 2 (ORIENTACIÓN HORIZONTAL):</br>
 </br>
 
 </br>
-Para probar cada una de las actividades de la aplicación móvil, hay que ir alternando con comentarios `setContentView(R.layout.first_activity)` y `setContentView(R.layout.second_activity)` que se encuentran dentro de `java/MainActivity.java`. </br>
+Para probar cada una de las actividades de la aplicación móvil, hay que ir alternando con comentarios:
 </br>
+
+```java
+setContentView(R.layout.first_activity);
+setContentView(R.layout.second_activity);
+```
 
 Resultado actividad 2 explicada:
 
