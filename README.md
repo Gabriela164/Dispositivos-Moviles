@@ -1,4 +1,4 @@
-# 💚 Programación de dispositivos móviles 2025-1 💚
+# 💚 Programación de dispositivos móviles 2025-1 
 
 
 <div style="display: flex; gap: 10px;">
