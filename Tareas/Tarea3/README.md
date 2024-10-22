@@ -1,5 +1,9 @@
 # 📌 Tarea 03: Navigation Drawer & Action Menu  ☕ 🥪
 
+* **Alumna: López Diego Gabriela** 
+* **No de cuenta: 318243485**
+
+
 La tarea 3 consiste en integrar dos componentes a la tarea 2: un menú izquierdo desplegable (Navigation Drawer) y un menú de tres puntitos (Action Menu). Cuando el usuario selecciona una opción de estos menús, aparece un mensaje en Logcat confirmando su elección.
 
 _Nota: Las pantallas NO se comunican entre sí (todavía) y se utilizo solamente la actividad 1 de la tarea 2_
