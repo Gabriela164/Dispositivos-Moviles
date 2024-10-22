@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Raíz del layout que utiliza CoordinatorLayout para coordinar las interacciones de vistas secundarias -->
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!-- AppBarLayout se utiliza para manejar barras de herramientas y otras vistas en la parte superior -->
+    <com.google.android.material.appbar.AppBarLayout
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/orange"/>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <!-- AppBarLayout se utiliza para manejar barras de herramientas y otras vistas en la parte superior -->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"    >
+
+        <include
+            layout="@layout/first_activity"
+            android:id="@+id/first_act"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+  </androidx.coordinatorlayout.widget.CoordinatorLayout>

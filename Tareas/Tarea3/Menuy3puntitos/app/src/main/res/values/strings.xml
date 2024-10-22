@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Tarea 3</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    
+     <!--Strings de la tarea 2 -->
+    <string name="title">Detalles de pago</string>
+    <string name="price">Precio</string>
+    <string name="choose_method">Seleccione un método de pago</string>
+    <string name="digit">$215.60</string>
+    <string name="discount">30% OFF</string>
+    <string name="paypal">Paypal</string>
+    <string name="credit_card">Tarjeta de Crédito</string>
+    <string name="mastercard">Mastercard</string>
+    <string name="visa">Visa</string>
+    <string name="card_number">Número de tarjeta</string>
+    <string name="example_number_Card"> 1356 3215 6548 7898</string>
+    <string name="exp_date">Fecha de vencimiento</string>
+    <string name="cvv">CVV</string>
+    <string name="example_month_year">MM/AA</string>
+    <string name="example_cvv">645</string>
+    <string name="name_person">Nombre Completo</string>
+    <string name="example_name"> Gabriela López Diego</string>
+    <string name="save_card"> Guardar datos para futuras compras </string>
+    <string name="add_card"> Realizar pago </string>
+    <string name="breakfast"> PAQUETE 1: Sandwich de croissant con fruta. </string>
+    <string name="package_1"> Paquete 1 </string>
+    <string name="description_breakfast"> Delicioso sandwich de croissant con huevo, jamón, queso, lechuga y jitomate. Acompañado con fruta (fresas, moras y guayabas) </string>
+    <string name="adress">Dirección</string>
+    <string name="less">-</string>
+    <string name="plus">+</string>
+    <string name="one">1</string>
+    <string name="eggs">Huevo</string>
+    <string name="ham">Jamón</string>
+    <string name="lettuce">Lechuga</string>
+    <string name="tomate">Jitomate</string>
+    <string name="cheese">Queso</string>
+    <string name="strawberries">Fresas</string>
+    <string name="blackberries">Moras</string>
+    <string name="guavas">Guayabas</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="total">Total</string>
+    <string name="digit2">$135.60</string>
+    <string name="shipping_costs">Costos de envío</string>
+    <string name="digit_shipping">$80.00</string>
+    <string name="add_to_cart">Agregar al carrito</string>
+
+    <!---String nuevos tarea3 -->
+
+    <!---Opciones para el menu desplegable -->
+    <string name="menup">Menú principal</string>
+    <string name="Paquetes">Paquetes</string>
+    <string name="Promociones">Promociones</string>
+    <string name="pago">Realizar pago</string>
+
+    <!-- Opciones para el menu 3 puntitos -->
+    <string name="ajuste_de_cuenta">Ajuste de cuenta</string>
+    <string name="hist_de_pedidos">Historial de pedidos</string>
+    <string name="ayuda">Ayuda y soporte</string>
+
+    <!-- Subtitulos en menu desplegable izquierdo -->
+    <string name="nombre_restaurante">Family Cook OFF</string>
+    <string name="logo">Las mejores comidas</string>
+</resources>
