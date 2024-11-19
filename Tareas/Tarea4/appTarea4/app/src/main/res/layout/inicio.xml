@@ -1,0 +1,151 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Titulo -->
+        <TextView
+            android:id="@+id/title_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_family"
+            android:layout_marginTop="20dp"
+            android:textSize="42sp"
+            android:typeface="normal"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Mensaje de bienvenida -->
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textSize="14sp"
+            android:typeface="normal"
+            android:textColor="@color/orange"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Primer par de botones con imágenes -->
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="26dp"
+            android:gravity="center"
+            >
+
+            <Button
+                android:id="@+id/btn1"
+                android:padding="11dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:drawableTop="@drawable/desayuno_icon"
+                android:text="@string/breakfast_1"
+                android:typeface="normal" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:padding="11dp"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="@color/white"
+                android:drawableTop="@drawable/comida_icon"
+                android:text="@string/meal_2"
+                android:textColor="@color/black"
+                android:typeface="normal" />
+
+        </LinearLayout>
+
+        <!-- Segundo par de botones con imágenes -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:drawableTop="@drawable/tacos_icon"
+                android:padding="10dp"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:layout_marginStart="12dp"
+                android:text="@string/tacos_3"
+                android:textColor="@color/black"
+                android:typeface="normal" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginEnd="8dp"
+                android:backgroundTint="@color/white"
+                android:drawableTop="@drawable/torta_icon"
+                android:padding="10dp"
+                android:text="@string/tortas_4"
+                android:textColor="@color/black"
+                android:typeface="normal" />
+        </LinearLayout>
+
+        <!-- Tercer par de botones con imágenes -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/drinks_5"
+                android:typeface="normal"
+                android:padding="10dp"
+                android:paddingStart="23dp"
+                android:paddingEnd="23dp"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:drawableTop="@drawable/drink_icon"
+                 />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/desserts_6"
+                android:padding="10dp"
+                android:paddingEnd="23dp"
+                android:paddingStart="23dp"
+                android:typeface="normal"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:drawableTop="@drawable/pastel_icon"
+                android:layout_marginStart="15dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

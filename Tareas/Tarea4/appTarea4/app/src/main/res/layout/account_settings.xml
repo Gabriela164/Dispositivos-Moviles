@@ -1,0 +1,121 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Titulo -->
+        <TextView
+            android:id="@+id/title_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ajuste_de_cuenta"
+            android:textSize="35sp"
+            android:typeface="serif"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Primer par de botones con imágenes -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:drawableTop="@drawable/profile"
+                android:text="Mi cuenta"
+                android:layout_marginEnd="50dp"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:text="¡Hola Gabriela!" />
+        </LinearLayout>
+
+        <!-- Segundo par de botones con imágenes -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/configuraciones"
+                android:typeface="serif"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:drawableTop="@drawable/setting"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/mi_direccion"
+                android:typeface="serif"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:drawableTop="@drawable/direction"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <!-- Tercer par de botones con imágenes -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/comentarios"
+                android:typeface="serif"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:drawableTop="@drawable/comment"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/favoritos"
+                android:typeface="serif"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:drawableTop="@drawable/favorite"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
