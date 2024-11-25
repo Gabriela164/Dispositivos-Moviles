@@ -28,5 +28,11 @@ Este repositorio fue creado para almacenar las tareas y proyectos realizados dur
 * 👨‍🦱 Ayudantes:
   - Cristopher Alejandro Escamilla Soto
   - Jesús Iván Saavedra Martínez
-
+ 
+### Calificaciones 
+ - ``Tarea 1``: 100/100
+ - ``Tarea 2``: 100/100
+ - ``Tarea 3``: 100/100
+ - ``Tarea 4``: 100/100
+ - ``Proyecto Final``: /100
 
