@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/op1"
+        android:title="@string/ajuste_de_cuenta"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/op2"
+        android:orderInCategory="101"
+        android:title="@string/hist_de_pedidos"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/op3"
+        android:orderInCategory="102"
+        android:title="@string/ayuda"
+        app:showAsAction="never" />
+</menu>
