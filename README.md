@@ -34,5 +34,5 @@ Este repositorio fue creado para almacenar las tareas y proyectos realizados dur
  - ``Tarea 2``: 100/100
  - ``Tarea 3``: 100/100
  - ``Tarea 4``: 100/100
- - ``Proyecto Final``: /100
+ - ``Proyecto Final``: 100/100
 
