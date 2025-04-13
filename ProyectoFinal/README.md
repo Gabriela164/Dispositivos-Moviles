@@ -51,7 +51,5 @@ Para ello, utilizaremos el método getAll en `DetallePagoActivity.java` para rec
 Convirtiendo así nuestros datos persistentes. 
 
 </br>
-<div style="display: flex; gap: 10px;">
-    <img src="img-proyecto/cap21.png" width="600" height="200">
-</div>
+
 </br>
